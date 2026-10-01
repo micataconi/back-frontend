@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto - Bazar Isabella</title>
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Bazar "Isabella"</h1>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./index.html#productos">Productos</a></li>
+                <li><a href="./index.html#resenas">Reseñas</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./carrito.html">Carrito</a></li>
+                <li><a href="./multimedia.html">Multimedia</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section>
+
+            <h2>Contacto</h2>
+
+            <p>
+                ¿Tenés alguna consulta? Completá el siguiente formulario
+                y nos pondremos en contacto con vos.
+            </p>
+
+
+            <!-- FORMULARIO -->
+            <form action="https://formspree.io/f/mnpnlqva" method="POST">
+
+                <!-- Nombre -->
+                <label for="nombre">Nombre:</label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Ingresá tu nombre"
+                    required
+                >
+
+
+                <!-- Correo -->
+                <label for="email">Correo electrónico:</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Ingresá tu correo electrónico"
+                    required
+                >
+
+
+                <!-- Mensaje -->
+                <label for="mensaje">Mensaje:</label>
+
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    placeholder="Escribí tu consulta..."
+                    required
+                ></textarea>
+
+
+                <!-- Botón -->
+                <button type="submit">
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Bazar Isabella. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
